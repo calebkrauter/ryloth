@@ -1,10 +1,10 @@
 package src;
 
-import src.view.DispalyGui;
+import src.view.DisplayGui;
 
 public class Application {
     public static void main(String[] args) {
-        DispalyGui dispalyGui = new DispalyGui();
-        dispalyGui.GameWindow();
+        DisplayGui DisplayGui = new DisplayGui();
+        DisplayGui.GameWindow();
     }
 }

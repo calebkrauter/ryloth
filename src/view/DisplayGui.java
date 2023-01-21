@@ -1,12 +1,11 @@
 package src.view;
 
 import javax.swing.*;
-import javax.tools.Tool;
 import java.awt.*;
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 
-public class DispalyGui {
+public class DisplayGui {
 
     private final Dimension SCREEN_SIZE = Toolkit.getDefaultToolkit().getScreenSize();
     public void DisplayGui() {
