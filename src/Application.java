@@ -1,6 +1,6 @@
 package src;
 
-import src.view.DisplayGui;
+import src.controller.Game;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Application {
     public static void main(String[] args) throws IOException {
-        DisplayGui DisplayGui = new DisplayGui();
-        DisplayGui.displayGameWindow();
+        new Game();
+
     }
 }
