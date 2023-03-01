@@ -27,32 +27,16 @@ public class MovementKeys implements KeyListener {
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()) {
             case KeyEvent.VK_W:
-                System.out.println("W");
-                System.out.println("HEART nolonger broken ;)");
-
                 characterPanel.setYDelta(-10);
-                characterPanel.repaint();
                 break;
             case KeyEvent.VK_A:
-                System.out.println("A");
-                System.out.println("HEART nolonger broken ;)");
-
                 characterPanel.setXDelta(-10);
-                characterPanel.repaint();
                 break;
             case KeyEvent.VK_S:
-                System.out.println("S");
-                System.out.println("HEART nolonger broken ;)");
-
                 characterPanel.setYDelta(10);
-                characterPanel.repaint();
                 break;
             case KeyEvent.VK_D:
-                System.out.println("D");
-                System.out.println("HEART nolonger broken ;)");
-
                 characterPanel.setXDelta(10);
-                characterPanel.repaint();
                 break;
         }
     }
