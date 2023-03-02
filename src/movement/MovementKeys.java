@@ -1,10 +1,9 @@
 package src.movement;
 
 import src.view.CharacterPanel;
-import src.view.GameFrame;
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.io.IOException;
 
 // https://youtu.be/6Tj6XYGWfko // for input
 // TODO - consider using keybindings
@@ -27,16 +26,16 @@ public class MovementKeys implements KeyListener {
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()) {
             case KeyEvent.VK_W:
-                characterPanel.setYDelta(-10);
+                characterPanel.setYDelta(-5);
                 break;
             case KeyEvent.VK_A:
-                characterPanel.setXDelta(-10);
+                characterPanel.setXDelta(-5);
                 break;
             case KeyEvent.VK_S:
-                characterPanel.setYDelta(10);
+                characterPanel.setYDelta(5);
                 break;
             case KeyEvent.VK_D:
-                characterPanel.setXDelta(10);
+                characterPanel.setXDelta(5);
                 break;
         }
     }

@@ -1,7 +1,5 @@
 package src.view;
 
-import src.movement.MovementKeys;
-
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
